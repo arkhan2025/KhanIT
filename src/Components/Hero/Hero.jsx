@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Hero.css";
 import logo from '../../assets/Logo.png';
 import arrow from '../../assets/arrow left.png';
-import call from '../../assets/Call.png';
+import call from '../../assets/Call sign.png';
 
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
