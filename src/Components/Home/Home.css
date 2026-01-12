@@ -105,7 +105,7 @@
 .imgbox2 {
   width: 295px;
   height: 230px;
-  background-image: url("./src/assets/Image.png");
+  background-image: url("./src/components/Home/Image.png");
   background-size: cover;
   background-position: center;
   border-radius: 24px;

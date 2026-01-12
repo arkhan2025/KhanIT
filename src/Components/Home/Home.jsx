@@ -31,7 +31,7 @@ marketing and web design.</p>
           <h6>Than Industry Average</h6>
       </div>
       <div className='imgbox2'>
-        <img src={image} alt="Image"/>
+        
         <img src={button} alt="Button"/>
         <h4><div className='circle'/>Watch Case Study</h4>
         <p>2:45 min</p>
