@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Hero.css";
-import logo from '../../assets/logo.png';
+import logo from '../../assets/LOGO.png';
 
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
