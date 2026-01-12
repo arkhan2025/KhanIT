@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Hero.css"
-import logo from '../../assets/logo.png'
+import logo from '../../assets/LOGO.png'
 import arrow from '../../assets/arrow-left.png'
 import call from '../../assets/call.png'
 
