@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
 
       <div className="contact-container desktop-only">
-        <img src={call} alt="Call" />
+        <img src={call}/>
         <p>+8801404282727</p>
       </div>
 
