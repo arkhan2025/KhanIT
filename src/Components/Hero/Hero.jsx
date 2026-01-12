@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Hero.css";
-import logo from '../../assets/logo.png';
+import logo from '../../assets/Logo.png';
 import arrow from '../../assets/arrow.alt.left_24px.png';
 import call from '../../assets/call.png';
 
