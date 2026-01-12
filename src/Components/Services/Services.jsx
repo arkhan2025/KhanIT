@@ -1,0 +1,64 @@
+import React from 'react'
+import './Services.css'
+
+const Services = () => {
+  return (
+    <div className='service'>
+      <div className='capsule'>Our Services</div>
+      <h1>Full-stack Digital Marketing Services</h1>
+      <p>We manage your complete digital presence so you can focus on your core business.</p>
+      <div className='cards'>
+        <div className='card'>
+          <img src='./src/assets/Frame (1).png'/>
+          <h3>SEO Service</h3>
+          <p>Improve Google rankings and gain
+            consistent, long-term traffic.</p>
+        </div>
+        <div className='card'>
+          <img src='./src/assets/Frame (2).png'/>
+          <h3>Web Design</h3>
+          <p>Create websites that convert
+            visitors into customers.</p>
+        </div>
+        <div className='card'>
+          <img src='./src/assets/Frame (3).png'/>
+          <h3>Facebook Ads</h3>
+          <p>Connect with your target audience
+            on their preferred platforms.</p>
+        </div>
+        <div className='card'>
+          <img src='./src/assets/Frame (4).png'/>
+          <h3>Google Ads</h3>
+          <p>Reach customers actively
+            searching for your services.</p>
+        </div>
+        <div className='card'>
+          <img src='./src/assets/Frame (5).png'/>
+          <h3>Content Writing</h3>
+          <p>Build trust and improve Google
+            rankings with compelling content.</p>
+        </div>
+        <div className='card'>
+          <img src='./src/assets/Frame (6).png'/>
+          <h3>Branding</h3>
+          <p>Differentiate your business and
+            build customer loyalty.</p>
+        </div>
+        <div className='card'>
+          <img src='./src/assets/Frame (7).png'/>
+          <h3>UI/UX Design</h3>
+          <p>Design user experiences that
+            increase Conversions.</p>
+        </div>
+        <div className='card'>
+          <img src='./src/assets/Frame (8).png'/>
+          <h3>Graphic Design</h3>
+          <p>Develop professional visuals to
+            enhance trust and credibility.</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Services
