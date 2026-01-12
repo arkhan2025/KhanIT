@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="logo-container">
-        <img src="./src/assets/logo.png" alt="Logo" />
+        <img src="./src/assets/logo.png" alt="Logo"/>
       </div>
 
       <div

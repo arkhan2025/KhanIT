@@ -1,11 +1,12 @@
 import React from 'react'
 import './Home.css'
+import logo  from '../../assets/Highlight_05.png'
 
 const Home = () => {
   return (
     <div className='home'>
       <div className='one'>
-        <h1>Digital Marketing<img src="./src/assets/Highlight_05.png"/>
+        <h1>Digital Marketing<img src="./src/assets/Highlight_05.png" alt='logo'/>
           Agency in Bangladesh</h1>
           <p>Khan IT (led by SEO expert Md Faruk Khan) helps businesses get 150% 
 more leads and 2.5x higher conversions through integrated digital 

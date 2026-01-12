@@ -9,49 +9,49 @@ const Services = () => {
       <p>We manage your complete digital presence so you can focus on your core business.</p>
       <div className='cards'>
         <div className='card'>
-          <img src='./src/assets/Frame (1).png'/>
+          <img src='./src/assets/Frame (1).png' alt='F1'/>
           <h3>SEO Service</h3>
           <p>Improve Google rankings and gain
             consistent, long-term traffic.</p>
         </div>
         <div className='card'>
-          <img src='./src/assets/Frame (2).png'/>
+          <img src='./src/assets/Frame (2).png' alt='F2'/>
           <h3>Web Design</h3>
           <p>Create websites that convert
             visitors into customers.</p>
         </div>
         <div className='card'>
-          <img src='./src/assets/Frame (3).png'/>
+          <img src='./src/assets/Frame (3).png' alt='F3'/>
           <h3>Facebook Ads</h3>
           <p>Connect with your target audience
             on their preferred platforms.</p>
         </div>
         <div className='card'>
-          <img src='./src/assets/Frame (4).png'/>
+          <img src='./src/assets/Frame (4).png' alt='F4'/>
           <h3>Google Ads</h3>
           <p>Reach customers actively
             searching for your services.</p>
         </div>
         <div className='card'>
-          <img src='./src/assets/Frame (5).png'/>
+          <img src='./src/assets/Frame (5).png' alt='F5'/>
           <h3>Content Writing</h3>
           <p>Build trust and improve Google
             rankings with compelling content.</p>
         </div>
         <div className='card'>
-          <img src='./src/assets/Frame (6).png'/>
+          <img src='./src/assets/Frame (6).png' alt='F6'/>
           <h3>Branding</h3>
           <p>Differentiate your business and
             build customer loyalty.</p>
         </div>
         <div className='card'>
-          <img src='./src/assets/Frame (7).png'/>
+          <img src='./src/assets/Frame (7).png' alt='F7'/>
           <h3>UI/UX Design</h3>
           <p>Design user experiences that
             increase Conversions.</p>
         </div>
         <div className='card'>
-          <img src='./src/assets/Frame (8).png'/>
+          <img src='./src/assets/Frame (8).png' alt='F8'/>
           <h3>Graphic Design</h3>
           <p>Develop professional visuals to
             enhance trust and credibility.</p>
