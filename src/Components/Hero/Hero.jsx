@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
 import logo from '../../assets/Logo.png';
-import arrow from '../../assets/arrow.alt.left_24px.png';
+import arrow from '../../assets/arrow left.png';
 import call from '../../assets/Call.png';
 
 const Hero = () => {
