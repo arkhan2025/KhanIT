@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Hero.css";
 import logo from '../../assets/logo.png';
+import arrow from '../../assets/arrow.alt.left_24px.png';
+import call from '../../assets/call.png';
 
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +32,7 @@ const Hero = () => {
             className="services-btn"
             onClick={() => setServicesOpen(!servicesOpen)}
           >
-            Services <span className="arrow"><img src='./src/assets/arrow.alt.left_24px.png'/></span>
+            Services <span className="arrow"><img src={arrow} alt="Arrow"/></span>
           </button>
 
           {servicesOpen && (
@@ -48,7 +50,7 @@ const Hero = () => {
       </div>
 
       <div className="contact-container desktop-only">
-        <img src="./src/assets/call.png" alt="Call" />
+        <img src={call} alt="Call" />
         <p>+8801404282727</p>
       </div>
 
@@ -62,7 +64,7 @@ const Hero = () => {
               className="services-btn"
               onClick={() => setServicesOpen(!servicesOpen)}
             >
-              Services <span className="arrow"><img src='./src/assets/arrow.alt.left_24px.png'/></span>
+              Services <span className="arrow"><img src={arrow} alt="Arrow"/></span>
             </button>
 
             {servicesOpen && (
@@ -80,7 +82,7 @@ const Hero = () => {
         </div>
 
         <div className="contact-container">
-          <img src="./src/assets/call.png" alt="Call" />
+          <img src={call} alt="Call" />
           <p>+8801404282727</p>
         </div>
       </div>
