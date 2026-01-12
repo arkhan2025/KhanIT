@@ -2,7 +2,6 @@ import React from 'react'
 import './Home.css'
 import logo  from '../../assets/Highlight_05.png'
 import arrow from '../../assets/Conversions Arrow.png'
-import image from '../../assets/Image.png'
 import frame from '../../assets/Frame.png'
 import button from '../../assets/Button+Gradient.png'
 import svg1 from '../../assets/SVG (1).png'
@@ -31,7 +30,6 @@ marketing and web design.</p>
           <h6>Than Industry Average</h6>
       </div>
       <div className='imgbox2'>
-        
         <img src={button} alt="Button"/>
         <h4><div className='circle'/>Watch Case Study</h4>
         <p>2:45 min</p>
