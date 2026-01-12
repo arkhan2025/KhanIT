@@ -1,13 +1,22 @@
 import React from 'react'
 import './Home.css'
 import logo  from '../../assets/Highlight_05.png'
-
+import arrow from '../../assets/Conversions Arrow.png'
+import image from '../../assets/Image.png'
+import frame from '../../assets/Frame.png'
+import button from '../../assets/Button+Gradient.png'
+import svg1 from '../../assets/SVG (1).png'
+import svg2 from '../../assets/SVG (2).png'
+import svg3 from '../../assets/SVG (3).png'
+import svg4 from '../../assets/SVG.png'
+import stars from '../../assets/Stars Container.png'
+import walton from '../../assets/walton-seeklogo 1.png'
 
 const Home = () => {
   return (
     <div className='home'>
       <div className='one'>
-        <h1>Digital Marketing<img src={logo} alt='logo'/>
+        <h1>Digital Marketing<img src={logo} alt='Logo'/>
           Agency in Bangladesh</h1>
           <p>Khan IT (led by SEO expert Md Faruk Khan) helps businesses get 150% 
 more leads and 2.5x higher conversions through integrated digital 
@@ -16,14 +25,14 @@ marketing and web design.</p>
     </div>
       <div className='two'>
         <div className='imgbox1'>
-          <img src="./src/assets/Frame.png" />
-          <h3>200% <img src='./src/assets/Conversions Arrow.png'/></h3>
+          <img src={frame} alt="Frame"/>
+          <h3>200% <img src={arrow} alt="Arrow"/></h3>
           <h5>More Conversions</h5>
           <h6>Than Industry Average</h6>
       </div>
       <div className='imgbox2'>
-        <img src='./src/assets/Image.png'/>
-        <img src='./src/assets/Button+Gradient.png'/>
+        <img src={image} alt="Image"/>
+        <img src={button} alt="Button"/>
         <h4><div className='circle'/>Watch Case Study</h4>
         <p>2:45 min</p>
       </div>
@@ -31,7 +40,7 @@ marketing and web design.</p>
         <h2>Our Track Record</h2>
         <div className='box1'>
           <div className='icon'>
-            <img src='./src/assets/SVG (1).png'/>
+            <img src={svg1} alt="SVG1" />
           </div>
           <div className='amount'>
             <h3>500+</h3>
@@ -40,7 +49,7 @@ marketing and web design.</p>
         </div>
         <div className='box2'>
           <div className='icon'>
-            <img src='./src/assets/SVG (2).png'/>
+            <img src={svg2} alt="SVG2" />
           </div>
           <div className='amount'>
             <h3>98%</h3>
@@ -49,7 +58,7 @@ marketing and web design.</p>
         </div>
         <div className='box3'>
           <div className='icon'>
-            <img src='./src/assets/SVG (3).png'/>
+            <img src={svg3} alt="SVG3" />
           </div>
           <div className='amount'>
             <h3>24h</h3>
@@ -59,11 +68,11 @@ marketing and web design.</p>
       </div>
       <div className='imgbox4'>
         <div className='corner'>
-          <img src='./src/assets/SVG.png'/>
+          <img src={svg4} alt="SVG4"/>
         </div>
         <div className='rest'>
-          <img src='./src/assets/walton-seeklogo 1.png'/>
-          <img src='./src/assets/Stars Container.png'/>
+          <img src={walton} alt="Walton Logo"/>
+          <img src={stars} alt="Stars Container"/>
           <p>"Their marketing strategies 
 are simply outstanding"</p>
         </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Hero.css";
-import Logo from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="logo-container">
-        <img src={Logo} alt="Logo"/>
+        <img src={logo} alt="Logo"/>
       </div>
 
       <div
